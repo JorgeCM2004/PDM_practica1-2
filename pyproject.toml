@@ -1,7 +1,12 @@
 [project]
 name = "pdm-practica1-2"
 version = "0.1.0"
-description = "Add your description here"
+description = ""
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+]
