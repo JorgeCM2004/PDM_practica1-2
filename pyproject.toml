@@ -5,8 +5,18 @@ description = ""
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anywidget>=0.11.0",
+    "ipywidgets>=8.1.9",
     "matplotlib>=3.11.2",
     "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
     "scikit-learn>=1.9.1",
     "scipy>=1.18.1",
+    "tqdm>=4.70.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
 ]
